@@ -1,3 +1,3 @@
 # rockPaperScissors
-A new HTML5/CSS3/JavaScript project, 
+A new javascript thing. uses script on html.
 the first of many projects to come
