@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <body>
 
-    <script>
-      
-    </script>
+<body>
 
-  </body>
+  <script>
+    var pwin = "Player Wins!"
+    var cwin = "Computer Wins!"
+    var draw = "Draw!"
+
+    function playRound(playerSelection, computerSelection) {
+      var p = playerSelection.toUpperCase();
+      var c = computerSelection.toUpperCase();
+      if (p == c) {
+        return draw
+      }
+      if (p == "ROCK") {
+        if (c == "PAPER") {
+          return cwin
+        } else {
+          return pwin
+        }
+      }
+      if (p == "PAPER") {
+        if (c == "SCISSORS") {
+          return cwin
+        } else {
+          return pwin
+        }
+      }
+      if (p == "SCISSORS") {
+        if (c == "ROCK") {
+          return cwin
+        } else {
+          return pwin
+        }
+      }      
+    }
+    
+    function game(){
+      for (var i = 0; i < 5; i++){
+        var playerInput = prompt("What is your name?");
+          
+      }
+    }
+  </script>
+
+</body>
+
 </html>
-
